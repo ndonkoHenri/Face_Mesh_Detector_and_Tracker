@@ -4,7 +4,7 @@ from cvzone import FPS
 from cvzone.FaceMeshModule import FaceMeshDetector
 
 # Initialisation
-cap = cv2.VideoCapture("test_videos/video_4.mp4")
+cap = cv2.VideoCapture("test_videos/video_1.mp4")
 detector = FaceDetector()
 fps_reader = FPS()
 face_mesh_detector = FaceMeshDetector()
